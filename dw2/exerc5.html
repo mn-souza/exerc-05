@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como usar jQuery</title>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div>
+<h1>Lista de Nomes</h1>
+</div>
+
+<div>
+<ul style="font-size: 24px">
+<li class="c">Maria</li>
+<li class="a">Josefina</li>
+<li class="b">Marcos</li>
+<li class="d">Aline</li>
+<li class="e">Adriana</li>
+</ul>
+</div>
+<div>
+
+<button id="btn">Click aqui</button>
+</div>
+<script>
+
+$('#btn').on("click", botao)
+function botao() {
+$('.c').css({ 'color': 'pink' })
+$('#btn').on("click", botao)
+function botao() {
+$('.a').css({ 'color': 'blue' })
+$('#btn').on("click", botao)    
+function botao() {
+$('.b').css({ 'color': 'brown' })
+$('#btn').on("click", botao)
+function botao() {
+$('.d').css({ 'color': 'yellow' })
+$('#btn').on("click", botao)
+function botao() {
+$('.e').css({ 'color': 'orange' })
+}
+}
+}
+}
+}
+
+/*
+$('h1').fadeOut("2000")
+*/
+
+/* $('h1').fadeOut("2000").fadeIn("2000")
+
+$('h1').fadeOut("2000").fadeIn("2000")
+
+$('h1').append(" de pessoas")
+
+$('#btn').on("click",botao)
+function botao(){
+$('h1').remove()
+$('li’).remove() 
+*/
+</script>
+</body>
+
+</html>
